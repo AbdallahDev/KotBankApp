@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#404040"
+    tools:context="com.example.user.kotbankapp.MainActivity">
+
+    <EditText
+        android:id="@+id/login_email"
+        android:hint="Enter E-Mail"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:layout_margin="10dp"
+        android:drawableRight="@drawable/user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/login_password"
+        android:hint="Enter Password"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:layout_margin="10dp"
+        android:drawableRight="@drawable/pasword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/login_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:background="#5555cc"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        />
+
+    <TextView
+        android:id="@+id/login_reg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:background="#5555cc"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        />
+
+
+</LinearLayout>

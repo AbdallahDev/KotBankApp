@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Change Password" android:id="@+id/itm_cp"
+        android:icon="@drawable/a1" app:showAsAction="always"/>
+
+    <item android:title="Show Credit" android:id="@+id/itm_credit"
+        android:icon="@drawable/a2" app:showAsAction="always"/>
+
+    <item android:title="Trans" android:id="@+id/itm_trans"
+        android:icon="@drawable/a3" app:showAsAction="always"/>
+
+    <item android:title="Report" android:id="@+id/itm_report"
+        android:icon="@drawable/a4" app:showAsAction="always"/>
+
+    <item android:title="Log Out" android:id="@+id/itm_logout"
+        android:icon="@drawable/aaaa" app:showAsAction="always"/>
+
+</menu>

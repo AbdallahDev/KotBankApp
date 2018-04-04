@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#404040"
+    tools:context="com.example.user.kotbankapp.TransFragment">
+
+
+    <EditText
+        android:id="@+id/trans_amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Amount"
+        android:textColorHint="#fff"
+        android:textColor="#fff"
+        android:ems="10"
+        android:inputType="number" />
+
+    <RadioGroup
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/trans_d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:text="D"
+            android:layout_marginRight="20dp"/>
+
+        <RadioButton
+            android:id="@+id/trans_w"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:text="W" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/trans_ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:background="#5555cc"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        />
+
+</LinearLayout>

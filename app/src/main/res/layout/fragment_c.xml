@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#404040"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.kotbankapp.CPFragment">
+    <EditText
+        android:id="@+id/cp_old"
+        android:hint="Old Password"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:layout_margin="10dp"
+        android:drawableRight="@drawable/pasword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/cp_password"
+        android:hint="New Password"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:layout_margin="10dp"
+        android:drawableRight="@drawable/pasword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/cp_confirm"
+        android:hint="Confirm Password"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:layout_margin="10dp"
+        android:drawableRight="@drawable/pasword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/cp_ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Change"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:background="#5555cc"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        />
+
+
+
+</LinearLayout>
